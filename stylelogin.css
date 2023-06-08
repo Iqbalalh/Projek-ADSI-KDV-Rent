@@ -1,0 +1,34 @@
+body{
+    background-image: url(img/bgweb.png);
+    background-size: cover;
+    display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      padding: 0;
+    
+}
+
+
+
+.login-box {
+    width: 500px;
+    padding: 70px;
+    align-items: center;
+    justify-content: center;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .iconpenyewa{
+    background-image: url(img/idatapenyewa.png);
+  }
+
+  .paddingikon{
+    padding-top: 50px;
+    padding-left: 30px;
+    padding-bottom: 25px;
+  }
+  

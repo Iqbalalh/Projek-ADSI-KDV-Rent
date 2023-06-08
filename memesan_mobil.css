@@ -1,0 +1,40 @@
+.wrapper {
+    max-height: 500px;
+    border: 1px solid #F5F5F5;
+    display: flex;
+    overflow-x: scroll;
+}
+
+.wrapper::-webkit-scrollbar{
+    width: 0;
+}
+
+.item {
+    min-width: 400px;
+    /* height: 100px;
+    line-height: 100px; */
+    text-align: center;
+    background-color: #F5F5F5;
+    color: black;
+    margin: 2px;
+}
+
+.stat {
+    color: #3CD298;
+    font-weight: 600;
+}
+
+.nama {
+    font-size: large;
+    font-weight: bold;
+}
+
+.kond {
+    font-size: medium;
+}
+
+.harga {
+    font-size: larger;
+    color: #E13535;
+    font-weight: 500;
+}
